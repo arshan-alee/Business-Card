@@ -1,0 +1,88 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  width: 317px;
+  background-color: #1A1B21;
+  border-radius: 10px;
+}
+
+.info-pfp {
+  height: 317px;
+  width: 317px;
+  object-fit: cover;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.info-name {
+  margin-top: 30px;
+  font-size: 25px;
+}
+
+.info-headline {
+  font-size: 12.8px;
+  color: #F3BF99;
+  font-weight: 100;
+}
+
+.info-web {
+  font-size: 10.24px;
+  font-weight: 100;
+}
+
+.email-btn {
+  border-radius: 6px;
+  border: 0.5px transparent;
+  font-size: 14px;
+  color: #000;
+  font-family: inherit;
+  background-color: #ffffff;
+  cursor: pointer;
+  height: 30px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 12px auto;
+  gap: 5px;
+}
+
+.heading {
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.description {
+  padding: 20px;
+  width: 250px;
+  margin: auto auto;
+}
+
+.interest-card {
+  margin-top: 30px;
+}
+
+.testimonial {
+  text-align: left;
+  font-weight: 100;
+  font-size: 10.24px;
+  line-height: 15px;
+}
+
+footer {
+  background-color: #161619;
+  padding: 15px;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+a {
+  color: #918E9B;
+}
